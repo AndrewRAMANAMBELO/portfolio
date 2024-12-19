@@ -1,0 +1,19 @@
+.fourthpage {
+  height: 100vh;
+}
+.fourthpage h4 {
+  padding-top: 3cm;
+  font-size: 2cm;
+}
+.fourthpage #icon {
+  font-size: 1cm;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.fourthpage #icon:hover {
+  font-size: 1.2cm;
+  transition: 0.2s;
+  color: rgba(18, 18, 177, 0.452);
+}

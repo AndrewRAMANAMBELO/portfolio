@@ -1,0 +1,16 @@
+.firstpage{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    p{
+        font-size: 35px;
+    }
+    .btn{
+        margin-top: 1cm;
+    }
+}
+@media screen and (max-width:400px){
+    header{
+        display: none;
+    }
+}

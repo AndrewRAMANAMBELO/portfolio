@@ -1,0 +1,45 @@
+.thirdpage {
+  height: 100vh;
+}
+.thirdpage h2 {
+  font-size: 2cm;
+  margin-bottom: 1cm;
+  text-align: center;
+}
+.thirdpage .container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 1cm;
+}
+.thirdpage .box {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: groove black 1px;
+  border-radius: 25px;
+  padding: 20px;
+  box-shadow: 5px 5px 5px #a19e9e;
+}
+.thirdpage .box p {
+  text-align: center;
+  padding-bottom: 0.5cm;
+}
+.thirdpage .bigbox {
+  margin-top: 0.5cm;
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.thirdpage .bigbox p {
+  margin-top: 0.3cm;
+  margin-bottom: 0.5cm;
+}

@@ -1,0 +1,28 @@
+header {
+  width: 7cm;
+  position: fixed;
+}
+header .nav_bar {
+  background-color: #585858;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header .nav_bar .links {
+  width: 6cm;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1cm;
+}
+header .nav_bar .links a {
+  color: white;
+  margin-top: 1cm;
+}
+header .nav_bar .links a:hover {
+  font-size: xx-large;
+  transition: 0.2s;
+}

@@ -1,0 +1,16 @@
+.secondpage {
+  height: 100vh;
+  margin-right: 1cm;
+}
+.secondpage h2 {
+  font-size: 2cm;
+  text-align: center;
+  margin-bottom: 0.5cm;
+}
+.secondpage p {
+  text-align: center;
+  font-size: 20px;
+}
+.secondpage .btn {
+  margin-top: 0.5cm;
+}

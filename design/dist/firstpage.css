@@ -1,0 +1,17 @@
+.firstpage {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.firstpage p {
+  font-size: 35px;
+}
+.firstpage .btn {
+  margin-top: 1cm;
+}
+
+@media screen and (max-width: 400px) {
+  header {
+    display: none;
+  }
+}

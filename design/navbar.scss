@@ -1,0 +1,28 @@
+header{
+    width: 7cm;
+    position: fixed;
+.nav_bar{
+    background-color: rgb(88, 88, 88);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .links{
+        width: 6cm;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1cm;
+        a{
+            color: white;
+            margin-top: 1cm;
+        }
+        a:hover{
+            font-size: xx-large;
+            transition: .2s;
+        }
+    }
+}
+}

@@ -1,0 +1,8 @@
+@mixin icon ($color){
+color: $color;
+font-size: xx-large;
+}
+
+#icon{
+    @include icon (rgb(31, 73, 121));
+}
